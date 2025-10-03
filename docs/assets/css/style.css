@@ -1,0 +1,142 @@
+/* --- Market page --- */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.filter {
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 999px;            /* pill look */
+  background: #fff;
+  font-size: 0.9rem;
+  appearance: none;
+  line-height: 1.4;
+  background-image: url("data:image/svg+xml,%3Csvg fill='none' stroke='%23666' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.6rem center;
+  background-size: 1em;
+  padding-right: 2rem;             /* space for chevron */
+}
+
+.filter:focus {
+  outline: none;
+  border-color: #111827;
+  box-shadow: 0 0 0 3px rgba(17,24,39,0.1);
+}
+
+.gi-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.gi-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  transition: transform .06s ease, box-shadow .06s ease;
+}
+
+.gi-card:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,.06);
+}
+
+.gi-media {
+  position: relative;
+}
+
+.gi-img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+.price-badge {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  background: #111;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.sold-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,.40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sold-overlay > span {
+  background: #fff;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+.gi-body {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.gi-title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.gi-meta {
+  margin: 0;
+  color: #374151;
+  font-size: .9rem;
+}
+
+.gi-notes {
+  margin: 0;
+  color: #6b7280;
+  font-size: .9rem;
+}
+
+.gi-cta {
+  margin-top: 8px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 10px;
+  border: 1px solid #111;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sold-label {
+  font-weight: 700;
+  color: #b91c1c;
+}
+
+.empty-state {
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+/* Small screens tweak */
+@media (max-width: 420px) {
+  .filters { gap: 8px; }
+  .filter { font-size: .85rem; }
+}
