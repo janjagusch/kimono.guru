@@ -1,0 +1,30 @@
+- id: atama-a2
+  brand: Atama
+  model: Classic
+  size: A2
+  color: White
+  price: 70
+  condition: Good
+  image: /assets/images/kimonos/kimono_1.png
+  status: available   # or "sold"
+  notes: Minor wear on sleeves
+- id: shoyoroll-a1
+  brand: Shoyoroll
+  model: Comp Lite
+  size: A1
+  color: Blue
+  price: 140
+  condition: Very good
+  image: /assets/images/kimonos/kimono_2.png
+  status: available
+  notes: Includes belt
+- id: fuji-a3
+  brand: Fuji
+  model: All Around
+  size: A3
+  color: Black
+  price: 60
+  condition: Fair
+  image: /assets/images/kimonos/kimono_3.png
+  status: sold
+  notes: Faded patches
