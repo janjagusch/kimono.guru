@@ -5,7 +5,7 @@ layout: default
 
 <h1>Kimonos for Sale</h1>
 
-<!-- Filters -->
+<!-- Filters (no search) -->
 <form id="filters" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin:16px 0;">
   <label>
     <span>Size</span>
@@ -28,13 +28,13 @@ layout: default
   <label>
     <span>Status</span>
     <select id="filter-status">
+      <!-- default will be set to 'available' by script unless URL overrides -->
       <option value="">Any</option>
       <option value="available">Available</option>
       <option value="sold">Sold</option>
     </select>
   </label>
 
-  <input id="filter-q" type="search" placeholder="Search brand/model…" style="padding:8px;">
   <button type="button" id="reset-filters">Reset</button>
 </form>
 
@@ -46,7 +46,6 @@ layout: default
            data-size="{{ item.size | downcase }}"
            data-color="{{ item.color | downcase }}"
            data-status="{{ status | downcase }}"
-           data-text="{{ item.brand | append:' ' | append:item.model | downcase }}"
            style="border:1px solid #e5e7eb;border-radius:14px;overflow:hidden;background:#fff;display:flex;flex-direction:column;">
     <div style="position:relative;">
       {% if item.image %}
@@ -89,7 +88,7 @@ layout: default
 
 <p id="empty-state" style="display:none;color:#6b7280;margin-top:8px;">No kimonos match your filters.</p>
 
-<!-- Tiny filtering script -->
+<!-- Filtering logic (defaults to status=available) -->
 <script>
 (function () {
   const $ = (s, r=document) => r.querySelector(s);
@@ -98,50 +97,53 @@ layout: default
   const selSize = $('#filter-size');
   const selColor = $('#filter-color');
   const selStatus = $('#filter-status');
-  const inputQ = $('#filter-q');
   const resetBtn = $('#reset-filters');
   const emptyState = $('#empty-state');
 
-  // Init from URL
+  // Init from URL; if no status provided, default to 'available'
   const params = new URLSearchParams(location.search);
   if (params.has('size')) selSize.value = params.get('size').toLowerCase();
   if (params.has('color')) selColor.value = params.get('color').toLowerCase();
-  if (params.has('status')) selStatus.value = params.get('status').toLowerCase();
-  if (params.has('q')) inputQ.value = params.get('q');
+  if (params.has('status')) {
+    selStatus.value = params.get('status').toLowerCase();
+  } else {
+    selStatus.value = 'available'; // default: hide sold
+  }
 
   function applyFilters() {
     const fSize = selSize.value.trim();
     const fColor = selColor.value.trim();
     const fStatus = selStatus.value.trim();
-    const q = inputQ.value.trim().toLowerCase();
 
     let visible = 0;
     cards.forEach(card => {
       const ok =
         (!fSize   || card.dataset.size   === fSize) &&
         (!fColor  || card.dataset.color  === fColor) &&
-        (!fStatus || card.dataset.status === fStatus) &&
-        (!q || card.dataset.text.includes(q));
+        (!fStatus || card.dataset.status === fStatus);
       card.style.display = ok ? '' : 'none';
       if (ok) visible++;
     });
 
     emptyState.style.display = visible ? 'none' : '';
+
+    // Update URL (so you can share links; if default 'available', still reflect it)
     const p = new URLSearchParams();
     if (fSize) p.set('size', fSize);
     if (fColor) p.set('color', fColor);
     if (fStatus) p.set('status', fStatus);
-    if (q) p.set('q', q);
     history.replaceState(null, '', p.toString() ? `${location.pathname}?${p}` : location.pathname);
   }
 
   [selSize, selColor, selStatus].forEach(el => el.addEventListener('change', applyFilters));
-  inputQ.addEventListener('input', applyFilters);
   resetBtn.addEventListener('click', () => {
-    selSize.value = ''; selColor.value = ''; selStatus.value = ''; inputQ.value = '';
+    selSize.value = '';
+    selColor.value = '';
+    selStatus.value = 'available'; // keep default behavior after reset
     applyFilters();
   });
 
+  // Initial render
   applyFilters();
 })();
 </script>
