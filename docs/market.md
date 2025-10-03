@@ -5,37 +5,25 @@ layout: default
 
 <h1>Kimonos for Sale</h1>
 
-<!-- Filters (no search) -->
-<form id="filters" style="display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin:16px 0;">
-  <label>
-    <span>Size</span>
-    <select id="filter-size">
-      <option value="">Any</option>
-      {% assign sizes = site.data.kimonos | map:'size' | uniq | sort %}
-      {% for s in sizes %}<option value="{{ s | downcase }}">{{ s }}</option>{% endfor %}
-    </select>
-  </label>
+<!-- Filters (no reset, no search) -->
+<form id="filters" style="display:flex;flex-wrap:wrap;gap:12px;margin:16px 0;">
+  <select id="filter-size" class="filter">
+    <option value="">Size</option>
+    {% assign sizes = site.data.kimonos | map:'size' | uniq | sort %}
+    {% for s in sizes %}<option value="{{ s | downcase }}">{{ s }}</option>{% endfor %}
+  </select>
 
-  <label>
-    <span>Color</span>
-    <select id="filter-color">
-      <option value="">Any</option>
-      {% assign colors = site.data.kimonos | map:'color' | uniq | sort %}
-      {% for c in colors %}<option value="{{ c | downcase }}">{{ c }}</option>{% endfor %}
-    </select>
-  </label>
+  <select id="filter-color" class="filter">
+    <option value="">Color</option>
+    {% assign colors = site.data.kimonos | map:'color' | uniq | sort %}
+    {% for c in colors %}<option value="{{ c | downcase }}">{{ c }}</option>{% endfor %}
+  </select>
 
-  <label>
-    <span>Status</span>
-    <select id="filter-status">
-      <!-- default will be set to 'available' by script unless URL overrides -->
-      <option value="">Any</option>
-      <option value="available">Available</option>
-      <option value="sold">Sold</option>
-    </select>
-  </label>
-
-  <button type="button" id="reset-filters">Reset</button>
+  <select id="filter-status" class="filter">
+    <option value="">Any Status</option>
+    <option value="available">Available</option>
+    <option value="sold">Sold</option>
+  </select>
 </form>
 
 <!-- Grid of tiles -->
@@ -49,7 +37,7 @@ layout: default
            style="border:1px solid #e5e7eb;border-radius:14px;overflow:hidden;background:#fff;display:flex;flex-direction:column;">
     <div style="position:relative;">
       {% if item.image %}
-        <img src="{{ item.image | relative_url }}" alt="{{ item.brand }} {{ item.model }}" loading="lazy" style="width:100%;height:auto;display:block;aspect-ratio:4/3;object-fit:cover;">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.brand }} {{ item.model }}" loading="lazy" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;">
       {% endif %}
       {% if status == 'sold' %}
         <div style="position:absolute;inset:0;background:rgba(0,0,0,.4);display:flex;align-items:center;justify-content:center;">
@@ -57,7 +45,7 @@ layout: default
         </div>
       {% endif %}
       {% if status != 'sold' and item.price %}
-        <span style="position:absolute;top:8px;left:8px;background:#111;color:#fff;padding:4px 8px;border-radius:999px;font-weight:600;">€{{ item.price }}</span>
+        <span style="position:absolute;top:8px;left:8px;background:#111;color:#fff;padding:4px 10px;border-radius:999px;font-weight:600;">€{{ item.price }}</span>
       {% endif %}
     </div>
 
@@ -67,7 +55,6 @@ layout: default
         Size: <strong>{{ item.size }}</strong> · Color: <strong>{{ item.color }}</strong>
         {% if item.condition %} · Condition: <strong>{{ item.condition }}</strong>{% endif %}
       </p>
-
       {% if item.notes %}
         <p style="margin:0;color:#6b7280;font-size:.9rem;">{{ item.notes }}</p>
       {% endif %}
@@ -88,26 +75,41 @@ layout: default
 
 <p id="empty-state" style="display:none;color:#6b7280;margin-top:8px;">No kimonos match your filters.</p>
 
-<!-- Filtering logic (defaults to status=available) -->
+<!-- Style for nicer dropdowns -->
+<style>
+  .filter {
+    padding:6px 10px;
+    border:1px solid #d1d5db;
+    border-radius:999px;
+    background:#fff;
+    font-size:0.9rem;
+    appearance:none;
+    background-image:url("data:image/svg+xml,%3Csvg fill='none' stroke='%23666' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' viewBox='0 0 24 24'%3E%3Cpath d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+    background-repeat:no-repeat;
+    background-position:right 0.5rem center;
+    background-size:1em;
+  }
+</style>
+
+<!-- Filtering logic -->
 <script>
 (function () {
-  const $ = (s, r=document) => r.querySelector(s);
-  const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
+  const $ = s => document.querySelector(s);
+  const $$ = s => Array.from(document.querySelectorAll(s));
   const cards = $$('.gi-card');
   const selSize = $('#filter-size');
   const selColor = $('#filter-color');
   const selStatus = $('#filter-status');
-  const resetBtn = $('#reset-filters');
   const emptyState = $('#empty-state');
 
-  // Init from URL; if no status provided, default to 'available'
+  // Init: default to 'available' if status not in URL
   const params = new URLSearchParams(location.search);
   if (params.has('size')) selSize.value = params.get('size').toLowerCase();
   if (params.has('color')) selColor.value = params.get('color').toLowerCase();
   if (params.has('status')) {
     selStatus.value = params.get('status').toLowerCase();
   } else {
-    selStatus.value = 'available'; // default: hide sold
+    selStatus.value = 'available'; // default
   }
 
   function applyFilters() {
@@ -127,7 +129,7 @@ layout: default
 
     emptyState.style.display = visible ? 'none' : '';
 
-    // Update URL (so you can share links; if default 'available', still reflect it)
+    // Update URL
     const p = new URLSearchParams();
     if (fSize) p.set('size', fSize);
     if (fColor) p.set('color', fColor);
@@ -136,14 +138,6 @@ layout: default
   }
 
   [selSize, selColor, selStatus].forEach(el => el.addEventListener('change', applyFilters));
-  resetBtn.addEventListener('click', () => {
-    selSize.value = '';
-    selColor.value = '';
-    selStatus.value = 'available'; // keep default behavior after reset
-    applyFilters();
-  });
-
-  // Initial render
   applyFilters();
 })();
 </script>
