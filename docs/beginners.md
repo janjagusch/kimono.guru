@@ -114,12 +114,59 @@ By following these hygiene practices, we can keep the dojo safe and healthy for 
 
 ## Equipment
 
-### Gi
+One of the great things about Brazilian Jiu-Jitsu is that it does not require much equipment. This makes the sport relatively affordable and also convenient for training while traveling or on vacation. That being said, here is a list of the essentials — and some optional extras — you may want to consider.  
 
-### Rashguard
+---
 
-### Gum Shield
+### Gi (Required)  
+The **gi**, sometimes also called a *kimono*, is the loose-fitting uniform worn in martial arts.  
 
-### Headgear
+- If you already have a **judo gi**, that will work perfectly fine for BJJ.  
+- Gis from other martial arts, like karate or aikido, are usually too thin and will most likely tear during practice.  
+- Traditional colors are white, blue, and black, but any color or design is welcome.  
+- When buying a gi, make sure it comes with a **white belt** (many beginner models do).  
+- We also sell some **second-hand gis** within the club.  
+- Always wash your gi between training sessions. If you plan on training multiple times per week, consider buying a second one.  
 
-### Groin Guard
+**Recommended Gi:** [Tatami Elements Gi (with belt)](https://eu.tatamifightwear.com/collections/bjj-gi/products/elements-superlite-gi-white)  
+
+---
+
+### Rash Guard and Spats (Required)  
+These are the **tight-fitting lycra clothes** worn underneath your gi.
+
+- They provide comfort and help reduce the risk of spreading skin diseases by adding an extra layer of protection.  
+
+---
+
+### Gum Shield (Required)  
+Even though BJJ does not involve strikes to the head, a gum shield is required to protect your teeth during sparring.  
+
+- A light gum shield that fits the upper jaw is usually sufficient.  
+
+**Recommended Gum Shield:** [SISU Aero](https://amzn.eu/d/hsLSK43)  
+
+---
+
+### Head Gear (Optional)  
+BJJ can sometimes cause damage to the ear cartilage, leading to **cauliflower ear**. This condition can be painful, affect hearing, and is not very aesthetic.  
+
+- Whether you are at risk depends largely on the shape and sensitivity of your ears.  
+- If you are prone to cartilage damage, wearing headgear during sparring is advised.  
+- Make sure the headgear has **no hard pieces** that could injure your partner.  
+
+**Recommended Headgear:** [Tenace Earmuffs](https://amzn.eu/d/gpzcS0g)  
+
+---
+
+### Groin Guard (Optional)  
+During sparring, accidental knees, kicks, or steps to the groin can happen.  
+
+- Some men prefer wearing a groin guard for extra protection.  
+- As with headgear, make sure it does not contain **hard plastic or metal parts** that could hurt your training partner.  
+
+**Recommended Groin Guard:** [Venum Groin Guard](https://amzn.eu/d/j9cquxk)  
+
+---
+
+With just these few items, you’ll be fully equipped to start your BJJ journey safely and comfortably.
