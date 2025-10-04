@@ -2,6 +2,36 @@
 
 ## History
 
+Brazilian Jiu-Jitsu (BJJ) traces its roots back to traditional Japanese martial arts and evolved uniquely in Brazil through adaptations by the Gracie family and others. Below is a concise history to help you understand where BJJ comes from.
+
+### Origins in Japan and the Birth of Judo
+Jujutsu is an ancient Japanese martial art developed by samurai in feudal Japan. It encompassed grappling, joint locks, throws, and techniques for unarmed combat.  
+
+In the late 19th century, **Jigoro Kano** reformed and systematized techniques from various jujutsu schools, emphasizing safety, pedagogy, and moral education, creating what became known as **Judo**.  
+
+### From Japan to Brazil: Mitsuyo Maeda  
+In the early 20th century, **Mitsuyo Maeda**, a high-ranking student in Kano’s system, traveled the world giving demonstrations and participating in challenge matches.  
+
+Around 1914, Maeda arrived in Brazil and began teaching grappling —then considered a form of “Kano jiu-jitsu” or judo — to **Carlos Gracie** and others. Carlos, along with his brothers (including Hélio Gracie), adapted and refined the techniques over time, with special emphasis on leverage, ground control, and submissions.  
+
+### Gracie Innovation and Vale Tudo  
+Over the decades, the Gracie family developed their version, often called **Gracie Jiu-Jitsu**, and promoted it through open “vale tudo” matches—fights with minimal rules to prove its effectiveness.  
+
+They challenged practitioners of boxing, wrestling, judo, and other systems, winning many of these matches and building a reputation for the “gentle art”.  
+
+### Spread to the U.S. and the Birth of Brazilian Jiu-Jitsu  
+In the late 20th century, members of the Gracie family began promoting the style internationally. **Rorion Gracie** played a key role in spreading BJJ in the United States.  
+
+In 1993, Rorion collaborated with promoter Art Davie to create the **Ultimate Fighting Championship (UFC)** as a platform to showcase the effectiveness of Gracie Jiu-Jitsu against fighters from various disciplines.  
+
+The success of **Royce Gracie**, who won several early UFC tournaments using submission grappling against larger opponents, dramatically increased global recognition of BJJ.  
+
+### Divergence from Judo  
+
+While Brazilian Jiu-Jitsu shares common roots with Judo, the two have diverged significantly. Judo tends to emphasize throws, takedowns, and standing exchanges, whereas BJJ emphasizes groundwork, positional control, and submissions.  
+
+Over time, BJJ has developed its own rulesets, strategies, and competition circuits, becoming a distinct martial art and sport in its own right.  
+
 ## Rules and Objectives
 
 ## Health and Safety
