@@ -80,6 +80,11 @@ To highlight how severe this can be, former MMA fighter and wrestler Ben Askren 
 ### Keeping Yourself and the Mats Safe
 For everyone’s safety, it is essential that we keep both ourselves and the training environment clean. Here are some key habits to adopt:  
 
+#### Don’t Leave the Mat Barefoot  
+A simple but important rule: **On the mat you’re barefoot, off the mat you wear slippers.**  
+- This prevents bringing dirt or bacteria from street shoes onto the mat.  
+- Going to the bathroom barefoot is especially forbidden.  
+
 #### Clean the Mats  
 After training, sweep the mats to remove hair, fuzz, and debris. Then disinfect with a **hospital-grade disinfectant spray** to kill harmful bacteria and fungi.  
 
