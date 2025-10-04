@@ -46,6 +46,7 @@ Many injuries happen because a submission is applied too quickly without proper 
 If an instructor tells you to stop mid-roll, you stop. There are many possible reasons:  
 - You may unknowingly be in a dangerous position.  
 - You might be too close to another group and risk bumping heads.  
+
 Trust their judgment—it’s for your safety.  
 
 ---
@@ -63,72 +64,48 @@ By following these principles, you’ll not only protect yourself but also help 
 
 ## Hygiene and Skincare
 
-*Gym Hygiene*
-- Always sweep mats first to remove hair, fuzz, and debris.
-- Disinfect with a *hospital-grade, intermediate-level* disinfectant.
-- Read the label: check for effectiveness against staph, ringworm, herpes, and molluscum.
-- Replace worn or frayed mat tape regularly.
+In a sport like Brazilian Jiu-Jitsu, where we spend a lot of time in close body contact with many training partners, it is unfortunately impossible to completely rule out infectious skin diseases.  
 
-*Common Skin Infections*
+### Common Skin Conditions
+Some skin infections are irritating but relatively harmless:  
+- **Ringworm** and **Herpes** can cause itchy, dry skin or pimples.  
 
-Staph (Staphylococcus aureus)
-- Carried by 30–50% of people, often without symptoms.
-- Causes impetigo, abscesses, boils, and potentially fatal infections.
-- *Do not train* with staph, even if covered.
-- Requires oral antibiotics. Tea tree oil and OTC ointments are *not* effective.
+However, others can be far more dangerous:  
+- **Staph infections** are serious and can lead to life-threatening complications if not treated quickly.  
 
-Ringworm (Tinea)
-- Caused by dermatophyte fungi like *Trichophyton*.
-- Spread by skin contact or contaminated surfaces.
-- Preventable by washing gear in *hot water* and drying thoroughly.
+To highlight how severe this can be, former MMA fighter and wrestler Ben Askren required a **double lung transplant** in 2025 after suffering pneumonia linked to a previous staph infection. [Read more here](https://news.northeastern.edu/2025/07/16/ben-askren-lung-transplant-recovery-staph-infection/).  
 
-Herpes Simplex Virus (HSV-1)
-- Causes cold sores; can spread to face, neck, or eye (herpes gladiatorum).
-- Highly contagious. *Do not train* with an outbreak.
-- Treated with antivirals like valacyclovir.
+---
 
-Molluscum Contagiosum
-- Viral infection causing small, pink, dimpled bumps.
-- Mild and self-limiting but still contagious.
+### Keeping Yourself and the Mats Safe
+For everyone’s safety, it is essential that we keep both ourselves and the training environment clean. Here are some key habits to adopt:  
 
-*Non-Contagious Conditions (Safe to Train With)*
+#### Clean the Mats  
+After training, sweep the mats to remove hair, fuzz, and debris. Then disinfect with a **hospital-grade disinfectant spray** to kill harmful bacteria and fungi.  
 
-Psoriasis
-- Autoimmune disease causing red, scaly plaques.
-- Not contagious. Safe to train.
-- Exercise and moisturization help reduce flare-ups.
+#### Keep Your Nails Short  
+Scratches from long fingernails or toenails are the perfect entry point for infections. Always keep your nails trimmed and filed to avoid injuring your partners.  
 
-Eczema (Atopic Dermatitis)
-- Skin barrier dysfunction. Dry, itchy skin; prone to staph.
-- Use gentle soap (e.g., Dove Sensitive Bar).
-- Moisturize *immediately* after lukewarm shower.
+#### Wear Layers  
+Many skin diseases spread through **direct skin-to-skin contact**. To minimize risk:  
+- Always wear your gi jacket and pants.  
+- Underneath, wear a rashguard and spats for an additional protective layer.  
 
-Acne
-- Often worsened by friction (e.g. rash guards).
-- Treat with benzoyl peroxide and salicylic acid washes.
-- Oral antibiotics or isotretinoin (*Accutane*) for severe cases.
-- Accutane is safe when monitored; birth defect risk applies only during use.
+#### Check Yourself Regularly  
+Examine your skin for unusual spots, rashes, or pimples. If you notice anything suspicious, consult a dermatologist or ask an experienced teammate for advice.  
 
-*Training Recommendations*
-- Do *not* train with contagious infections or open, oozing wounds.
-- Minor cuts must be covered with full-adhesive bandages + optional Vaseline layer.
-- If bleeding, stop training and disinfect all affected areas.
+#### Stay Off the Mats if Infected  
+Covering an infected area with tape or clothing is not enough. If you have a contagious condition, you must not train until it has fully healed.  
 
-*Best Skincare Practices for Grapplers*
-- Shower immediately after training using warm water and mild soap.
-- Moisturize after showering to repair skin barrier.
-- Avoid hot water and harsh soaps.
-- Wear rash guards and spats — they reduce skin exposure.
-- Wash gi, rash guards, and belt in *hot water* with detergent, then tumble dry.
-- Vinegar helps with odor but is *not* a disinfectant.
+#### Shower Immediately After Training  
+Showering right after class removes sweat, dirt, and bacteria before they can settle into your skin.  
 
-*Other Tips*
-- For sun protection, prioritize long sleeves and wide-brim hats over sunscreen.
-- If your gear still smells after washing, it may need to be retired.
+#### Wash Your Gear  
+Wash your gi, rashguard, and belt after each training session. Clean gear helps protect both you and your training partners.  
 
-*Final Advice*
-Basic hygiene matters most:
-Wash your hands. Shower after class. Wash your gear. Don’t train with infections.
+---
+
+By following these hygiene practices, we can keep the dojo safe and healthy for everyone. Clean mats and clean bodies mean more enjoyable training sessions and fewer risks of infection.  
 
 ## Equipment
 
