@@ -34,6 +34,58 @@ Over time, BJJ has developed its own rulesets, strategies, and competition circu
 
 ## Rules and Objectives
 
+Simply put, the goal of Brazilian Jiu-Jitsu (BJJ) is to **immobilize your partner** and to **force them to give up (tap)** through a joint lock or choking technique.  
+
+---
+
+### How a Match Works  
+A typical match starts with both practitioners standing and ends when one person taps or when the timer runs out (usually between 5 and 10 minutes, depending on the competition or class format).  
+
+If time runs out without a tap, the winner is decided by **points**. Points are awarded for achieving and maintaining **dominant positions**, where you control your partner’s body. Examples include:  
+- **Guard pass** – moving past your opponent’s legs into a controlling position  
+- **Mount** – sitting on your opponent’s torso and controlling their upper body  
+- **Back control** – attaching yourself to your opponent’s back with hooks and grips  
+
+The exact scoring system and point values can differ between organizations, but the core principle is always control and progression.  
+
+---
+
+### Focus on Ground Fighting  
+Unlike Judo, where the fight is reset when it goes to the ground, **BJJ continues until one person submits or time expires**. This focus on **ground control** is what makes BJJ unique.  
+
+BJJ also allows a wider range of submissions, including:  
+- **Leg locks** (in advanced divisions)  
+- **Chokes** without using the jacket (no-gi techniques)  
+
+---
+
+### What’s Not Allowed  
+Even though BJJ is a combat sport, it is **not MMA**. Strikes, kicks, and slams are strictly prohibited.  
+
+Other actions that are typically forbidden include:  
+- Small joint manipulation (e.g. bending individual fingers or toes)  
+- Spinal attacks or neck cranks  
+- Eye gouging, hair pulling, or grabbing fingers  
+- Applying submissions too quickly or with excessive force  
+
+---
+
+### Rolling and Etiquette  
+In training, sparring is often called **rolling**. A roll is a live grappling round with a partner, usually lasting a few minutes.  
+
+- Before starting, partners ***slap their hands then bump their fists (a slap-bump)** *as a sign of respect.  
+- When the roll ends, always thank your partner — they help you improve and stay safe.  
+- If you accidentally roll into another pair, stop immediately and reposition.  
+
+---
+
+### Training vs. Competing  
+In regular class rolls, the goal isn’t to “win,” but to **practice techniques safely** and **learn from each exchange**. Competition matches, on the other hand, are about testing your skills under rules and pressure — but the fundamentals of control, safety, and respect remain the same.  
+
+---
+
+By understanding these basic rules and objectives, you’ll not only grasp how BJJ matches work, but also learn how to train responsibly and respectfully — the essence of good jiu-jitsu.
+
 ## Health and Safety
 
 BJJ is a combat sport. This means that while it is incredibly rewarding, there is always a risk of injury. Training in a safe way is one of the most important values in our dojo, and as a beginner you should know what to expect and how to protect yourself and your partners.  
