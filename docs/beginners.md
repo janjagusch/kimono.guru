@@ -16,12 +16,6 @@ In the early 20th century, **Mitsuyo Maeda**, a high-ranking student in Kano’s
 
 Around 1914, Maeda arrived in Brazil and began teaching grappling — then considered a form of “Kano jiu-jitsu” or Judo — to **Carlos Gracie** and others. Carlos, along with his brothers (including Hélio Gracie), adapted and refined the techniques over time, placing more emphasis on leverage, ground control, and submissions.
 
-### Gracie Innovation and Vale Tudo
-
-Over the decades, the Gracie family developed their own version, often called **Gracie Jiu-Jitsu**, and promoted it through open “vale tudo” matches — fights with minimal rules used to prove its effectiveness.
-
-They challenged practitioners of boxing, wrestling, Judo, and other systems, winning many of these matches and building a reputation for the “gentle art.”
-
 ### Spread to the U.S. and the Birth of Brazilian Jiu-Jitsu
 
 In the late 20th century, members of the Gracie family began promoting the style internationally. **Rorion Gracie** played a key role in spreading BJJ in the United States.
