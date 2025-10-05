@@ -117,8 +117,6 @@ However, our main goal is to **minimize the likelihood and severity of serious i
 
 The most dangerous injuries in BJJ are neck injuries. Almost all fatal or life-changing cases in the sport involve the neck. In **2018**, a beginner student in the U.S. suffered a tragic accident during sparring that left him paralyzed after twisting his neck. [Read more here](https://nypost.com/2025/06/05/us-news/beginner-jiu-jitsu-student-awarded-56m-after-being-paralyzed-while-sparring-with-instructor-sinistro/).
 
-The most dangerous injuries in BJJ are neck injuries. Almost all fatal or life-changing cases in the sport involve the neck. In **2018**, a beginner student in the U.S. suffered a tragic accident during sparring that left him paralyzed after twisting his neck. [Read more here](https://nypost.com/2025/06/05/us-news/beginner-jiu-jitsu-student-awarded-56m-after-being-paralyzed-while-sparring-with-instructor-sinistro/).
-
 This was an **extraordinary and tragic incident**, and it has received widespread media attention precisely because such severe injuries are **exceptionally rare** in Brazilian Jiu-Jitsu. It serves as a reminder of why safety is our top priority.
 
 ---
