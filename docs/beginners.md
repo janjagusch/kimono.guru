@@ -16,12 +16,6 @@ In the early 20th century, **Mitsuyo Maeda**, a high-ranking student in Kano’s
 
 Around 1914, Maeda arrived in Brazil and began teaching grappling — then considered a form of “Kano jiu-jitsu” or Judo — to **Carlos Gracie** and others. Carlos, along with his brothers (including Hélio Gracie), adapted and refined the techniques over time, placing more emphasis on leverage, ground control, and submissions.
 
-### Gracie Innovation and Vale Tudo
-
-Over the decades, the Gracie family developed their own version, often called **Gracie Jiu-Jitsu**, and promoted it through open “vale tudo” matches — fights with minimal rules used to prove its effectiveness.
-
-They challenged practitioners of boxing, wrestling, Judo, and other systems, winning many of these matches and building a reputation for the “gentle art.”
-
 ### Spread to the U.S. and the Birth of Brazilian Jiu-Jitsu
 
 In the late 20th century, members of the Gracie family began promoting the style internationally. **Rorion Gracie** played a key role in spreading BJJ in the United States.
@@ -123,7 +117,7 @@ However, our main goal is to **minimize the likelihood and severity of serious i
 
 The most dangerous injuries in BJJ are neck injuries. Almost all fatal or life-changing cases in the sport involve the neck. For example, in 2018 a beginner student in the U.S. suffered a tragic accident that left him paralyzed after twisting his neck during sparring. [Read more here](https://nypost.com/2025/06/05/us-news/beginner-jiu-jitsu-student-awarded-56m-after-being-paralyzed-while-sparring-with-instructor-sinistro/).
 
-These kinds of incidents are **incredibly rare**, and it’s our shared responsibility to keep it that way by training with awareness and care.
+This was an **extraordinary and tragic incident**, and it has received widespread media attention precisely because such severe injuries are **exceptionally rare** in Brazilian Jiu-Jitsu. It serves as a reminder of why safety is our top priority.
 
 ---
 
